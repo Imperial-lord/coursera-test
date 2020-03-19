@@ -116,7 +116,7 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
                 // it into the home html snippet.
                 //
                 var homeHtmlToInsertIntoMainPage = insertProperty(
-                    homeHtmlToInsertIntoMainPage, "randomCategoryShortName", String(chosenCategoryShortName));
+                    homeHtmlToInsertIntoMainPage, "randomCategoryShortName", chosenCategoryShortName);
 
                 insertHtml("#main-content", homeHtmlToInsertIntoMainPage)
                 // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
